@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
+
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 2vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: space-between;*/
+    gap: 2vw;
+    font-family: 'PT Sans Caption', 'sans-serif';
+    font-size: .7em;
+}
+
+#logo {
+    width: 61px;
+    height: 61px;
+}
+
+#siHei {
+    background-color: #EE5007;
+    color: #FAFAFA;
+}
+
