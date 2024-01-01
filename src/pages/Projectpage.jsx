@@ -1,4 +1,5 @@
-import projectsData from '../projects.js';
+import { Header } from '../components/Header';
+import projectsData from '../projects.json';
 
 export function Projectpage() {
     const selectedProject = projectsData.find((project) => project.project === "Xpedition");
@@ -7,8 +8,10 @@ export function Projectpage() {
         return <p>Project not found</p>;
       }
 
+
     return(
         <>
+            <Header />
             <div>
                 <h1>{selectedProject.project}</h1>
             </div>
@@ -26,3 +29,5 @@ export function Projectpage() {
         </>
     )
 }
+
+export default Projectpage;
