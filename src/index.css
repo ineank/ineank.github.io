@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   place-items: center;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
 }
 
@@ -31,6 +31,13 @@ h2 {
   font-size: 22px;
   color: #1D5B79;
   font-weight: 570;
+  margin: 0;
+}
+
+p {
+  font-family: 'PTSansCaption-Regular';
+  font-size: 16px;
+  color: #28282B;
   margin: 0;
 }
 /*
