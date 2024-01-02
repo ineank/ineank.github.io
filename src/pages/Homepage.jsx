@@ -1,5 +1,6 @@
 //import FrontFigure from "../components/FronFigure";
 import { Header } from "../components/Header";
+import { Footer } from "../components/Footer"
 import FrontFigure from "../assets/frontFigur2.svg";
 import path1 from '../assets/path.svg';
 import blob from '../assets/blob.svg';
@@ -53,7 +54,7 @@ export function Homepage() {
                 
             </div>
             
-            
+            <Footer />
         </div>
     );
 }

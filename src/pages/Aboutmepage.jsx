@@ -3,6 +3,7 @@ import portrait from "../assets/portrait.jpg";
 import postit from "../assets/character_postit.svg";
 import winking from "../assets/character_winking.svg";
 import "./aboutmepage.css";
+import { Footer } from "../components/Footer";
 
 
 export function Aboutmepage() {
@@ -49,6 +50,7 @@ export function Aboutmepage() {
 
                 </div>
             </div>
+            <Footer />
         
             
             
