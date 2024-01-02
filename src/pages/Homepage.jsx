@@ -11,7 +11,7 @@ export function Homepage() {
         <div>
             <Header/>
             {/*<FrontFigure/>*/}
-            <main>
+            <div className="main">
                 <div className="grid_container_1">
                     <h1>Ine A. Krogseth</h1>
                     <h2>Design handler om å berike livene våre gjennom inkluderende og minneverdige oppleverlser.</h2>
@@ -51,7 +51,7 @@ export function Homepage() {
                 </div>
                 */}
                 
-            </main>
+            </div>
             
             
         </div>

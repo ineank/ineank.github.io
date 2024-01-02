@@ -1,5 +1,5 @@
 
-main {
+.main {
     width: 80vw;
     height: 100vh;
     margin-top: 7vh;
@@ -55,7 +55,7 @@ main {
     grid-row: 1 / span 5;
     width: 100%;
     z-index: 7;
-    margin-top: -170px;
+    margin-top: -10px;
 }
 
 .front_image {

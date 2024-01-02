@@ -19,6 +19,11 @@ nav {
     font-size: .7em;
 }
 
+nav > * {
+    text-decoration: none;
+}
+
+
 #logo {
     width: 61px;
     height: 61px;
