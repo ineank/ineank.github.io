@@ -75,6 +75,7 @@
     display: grid;
     grid-gap: 1vw;
     grid-template-columns: repeat(24, 2.3vw);
+    grid-template-rows: repeat(24, 2.3vw);
 }
 
 .grid_container_2 > h2 {
@@ -86,6 +87,13 @@
     margin: -13vh 0 13vh 0;
     grid-column: 1 / span 24;
     width: 100%;
+}
+
+.project_dot {
+    display: fixed;
+    margin-top: 5vh;
+    grid-column: 4 / span 1;
+    grid-row: 5 / span 1;
 }
 
 /*

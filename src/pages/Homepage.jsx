@@ -4,11 +4,17 @@ import { Footer } from "../components/Footer"
 import FrontFigure from "../assets/frontFigur2.svg";
 import path1 from '../assets/path.svg';
 import blob from '../assets/blob.svg';
+import project_dot from '../assets/projectDot.svg';
 import path_projects from '../assets/path_projects.svg';
 import frontBackground from '../assets/front_background.svg';
 import './homepage.css';
+import projectsData from '../projects.json';
+import { Link } from "react-router-dom";
+
+
 
 export function Homepage() {
+
     return (
         <div>
             <Header/>
@@ -34,6 +40,11 @@ export function Homepage() {
                     <h1>Prosjekter</h1>
                     <h2>Gjør deg kjent med mine prosjekter</h2>
                     <img className="project_path" src={path_projects}></img>
+                    {projectsData.map((project) => (
+                        <Link key={project._id} to={`/projects/${project.project}`}>
+                            <img className="project_dot" src={project_dot} alt="Project Dot" />
+                        </Link>
+                    ))}
                 </div>
 
                 {/*

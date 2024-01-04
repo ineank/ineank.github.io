@@ -1,5 +1,6 @@
 import { Header } from '../components/Header';
 import projectsData from '../projects.json';
+import './projectpage.css';
 
 export function Projectpage() {
     const selectedProject = projectsData.find((project) => project.project === "Xpedition");
@@ -13,7 +14,12 @@ export function Projectpage() {
         <>
             <Header />
             <div>
-                <h1>{selectedProject.project}</h1>
+                <h1>"{selectedProject.project}",</h1>
+                <h2>{selectedProject.semester}</h2>
+                <div>
+                    <h2>{selectedProject.summary}</h2>
+                    <img className="image_top" src={selectedProject.image[1]}></img>
+                </div>
             </div>
             <div className="lists">
                 <div>
