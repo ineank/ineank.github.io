@@ -6,15 +6,41 @@
         "summary": "Dette prosjektet har gitt meg praktisk erfaring med smidig utvikling og samarbeid i et tverrfaglig team, samt utvidet mine ferdigheter innen Figma for design. I tillegg har jeg jobbet med React for front-end-utvikling, som vil være verdifullt for fremtidige prosjekter.",
         "image": {
             "1": "/xpedition/1.png",
-            "2": "",
-            "3": "",
-            "4": ""
+            "2": "/xpedition/2.png",
+            "3": "/xpedition/3.png",
+            "4": "/xpedition/4.png"
         },
-        "role": "Designer, Frontend-utvikler, Skrum-master (rullering)",
-        "technology": "Figma, React, Firebase, Git",
-        "delivery": "Webapplikasjon, Produktpresentasjon, Rapport",
+        "role": {
+            "1": "Designer",
+            "2": "Frontend-utvikler",
+            "3": "Skrum-master (rullering)"
+        },
+        "technology": {
+            "1": "Figma",
+            "2": "React",
+            "3": "Firebase",
+            "4": "Git"
+        },
+        "delivery": {
+            "1": "Webapplikasjon",
+            "2": "Produktpresentasjon",
+            "3": "Rapport"
+        },
         "about": "Prosjektet var en del av emnet Programvareutvikling, som legger vekt på smidig programvareutvikling i et tverrfaglig team. Produktet var en nettside for backpackere, der det kunne deles reiseruter og erfaringer for å hjelpe andre backpackere med planlegging og derfor skape bedre opplevelser. Det var mulig å vurdere, kommentere og filtrere reiser. Til slutt ble det implementert en søkefunksjon. Vi jobbet parallellt med en produkteier der vi sammen oppdaterte produktbeskrivelsen ukentlig.",
-        "process": "",
-        "learnings": "" 
+        "process": {
+            "1": "I prosjekt implementert vi en effektiv arbeidsprosess som inkluderte Sprint-planlegging, noe som sikrer klare mål for hver sprint. Prosjektet ble delt opp i tre sprinter i løpet av ett semester. Vi møttes to ganger i uken for å holde et tett samarbeid og for å sikre kontinuerlig fremgang. I tillegg hadde vi regelmessige møter med produkteier for å sikre retning og prioriteringer. ",
+            "2": "Hele prosjektet begynte med en opplæringsfase, der vi hver for oss lært React, da dette var nytt for de fleste. Videre var mitt bidrag i prosjektet blant annet å lage en rask prototype i Figma, utvikling av forside, mulighet for darkmode, toppliste og diverse css. ",
+            "3": "Etter hver sprint gjennomførte vi en Sprint-gjennomgang for å vise våre prestasjoner og for å justere kursen etter behov. Teamet gjennomførte også retrospektiver etter sprint, noe som bidro til å forbedre og optimalisere arbeidsprosessen vår for å levere enda bedre resultater. ",
+            "4": "Til slutt leverte vi en refleksjonsrapport, der erfaringer og pensum skulle reflekteres rundt i lys av prosessen i programvareutvikling."
+        },
+        "process_image": {
+            "1": "/xpedition/process_1.png",
+            "2": "/xpedition/process_2.png",
+            "3": "/xpedition/process_3.png"
+        },
+        "learnings": {
+            "1": "Dette prosjektet har gitt meg en praktisk forståelse av programvareutviklingsprosessen, spesielt gjennom anvendelse av smidig utvikling (Scrum). I tillegg har jeg fått betydelig erfaring med å jobbe i et team med 7 personer for å skape et fungerende produkt. Denne samarbeidsprosessen har gitt meg innsikt i effektiv kommunikasjon, samarbeid og evnen til å jobbe mot et felles mål i en smidig utviklingskontekst.",
+            "2": "I løpet av prosjektet har jeg også tilegnet meg praktisk kunnskap og erfaring med å arbeide med React for front-end-utvikling samt håndtering av databaser. Denne nye kompetansen har utvidet mitt tekniske repertoar og vil være verdifull i fremtidige prosjekter."
+        } 
     }
 ]

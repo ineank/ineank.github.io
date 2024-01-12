@@ -1,4 +1,135 @@
 
+.headline {
+    margin: 5vw 0 3vw 15vw;
+}
+
+.intro {
+    background-color: #F1F0F0;
+    height: 22vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    margin-bottom: 6vw;
+}
+
+.index {
+    width: 30vw;
+    margin-top: 3vw;
+    margin-left: 15vw;
+}
+
 .image_top {
-    width: 50vw;
+    height: 23vw;
+    margin-right: 10vw;
+    margin-top: -3vw;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F1F0F0;
+    width: 80vw;
+    height: 12vw;
+    border-radius: 100px;
+    margin-left: 10vw;
+    margin-bottom: 6vw;
+}
+
+.lists > div {
+    left: 25vw;
+}
+
+.image_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-bottom: 15vw;
+}
+
+.image_group > img {
+    width: 30vw;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image_group > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image_group > div > img {
+    width: 47vw;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about_project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F1F0F0;
+    width: 80vw;
+    height: 20vw;
+    border-radius: 100px;
+    margin-left: 10vw;
+    margin-bottom: 15vw;
+}
+
+.about_project > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_project > div > p {
+    width: 40vw;
+}
+
+.process_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    padding-bottom: 6vw;
+}
+
+.process_top > div {
+    margin-left: 20vw;
+}
+
+
+.process_top > img {
+    width: 30vw;
+}
+
+.process_bottom {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+
+
+
+.process_bottom > div >img {
+    width: 25vw;
+}
+
+
+.learnings {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F0F0;
+    width: 80vw;
+    border-radius: 100px;
+    margin-left: 10vw;
+}
+
+.learnings > div {
+    display: flex;
+    flex-direction: row;
 }
